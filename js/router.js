@@ -32,9 +32,3 @@ Todos.TodosCompletedRoute = Ember.Route.extend({
     this.render('todos/index', { controller: controller });
   }
 });
-
-Todos.TodosIndexRoute = Ember.Route.extend({
-  model: function() {
-    return this.modelFor('todos');
-  }
-});
